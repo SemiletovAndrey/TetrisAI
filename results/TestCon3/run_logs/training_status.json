@@ -1,0 +1,56 @@
+{
+    "Tetris Agent ML": {
+        "checkpoints": [
+            {
+                "steps": 286130,
+                "file_path": "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-286130.onnx",
+                "reward": -192.9375,
+                "creation_time": 1715090982.9167314,
+                "auxillary_file_paths": [
+                    "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-286130.pt"
+                ]
+            },
+            {
+                "steps": 365588,
+                "file_path": "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-365588.onnx",
+                "reward": -151.72413793103448,
+                "creation_time": 1715092730.9446743,
+                "auxillary_file_paths": [
+                    "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-365588.pt"
+                ]
+            },
+            {
+                "steps": 499940,
+                "file_path": "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-499940.onnx",
+                "reward": -11.272727272727273,
+                "creation_time": 1715098415.3015587,
+                "auxillary_file_paths": [
+                    "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-499940.pt"
+                ]
+            },
+            {
+                "steps": 716670,
+                "file_path": "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-716670.onnx",
+                "reward": -81.47619047619048,
+                "creation_time": 1715101886.4222496,
+                "auxillary_file_paths": [
+                    "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-716670.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 716670,
+            "file_path": "results\\TestCon3\\Tetris Agent ML.onnx",
+            "reward": -81.47619047619048,
+            "creation_time": 1715101886.4222496,
+            "auxillary_file_paths": [
+                "results\\TestCon3\\Tetris Agent ML\\Tetris Agent ML-716670.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

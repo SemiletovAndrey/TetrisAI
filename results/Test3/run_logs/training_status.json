@@ -1,0 +1,29 @@
+{
+    "Tetris Agent ML": {
+        "checkpoints": [
+            {
+                "steps": 4629,
+                "file_path": "results\\Test3\\Tetris Agent ML\\Tetris Agent ML-4629.onnx",
+                "reward": -51.066667169332504,
+                "creation_time": 1715011655.9213917,
+                "auxillary_file_paths": [
+                    "results\\Test3\\Tetris Agent ML\\Tetris Agent ML-4629.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4629,
+            "file_path": "results\\Test3\\Tetris Agent ML.onnx",
+            "reward": -51.066667169332504,
+            "creation_time": 1715011655.9213917,
+            "auxillary_file_paths": [
+                "results\\Test3\\Tetris Agent ML\\Tetris Agent ML-4629.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

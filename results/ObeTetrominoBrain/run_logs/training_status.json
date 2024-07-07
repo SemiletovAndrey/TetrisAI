@@ -1,0 +1,38 @@
+{
+    "Tetris Agent ML": {
+        "checkpoints": [
+            {
+                "steps": 499492,
+                "file_path": "results\\ObeTetrominoBrain\\Tetris Agent ML\\Tetris Agent ML-499492.onnx",
+                "reward": -98.5,
+                "creation_time": 1716385907.483921,
+                "auxillary_file_paths": [
+                    "results\\ObeTetrominoBrain\\Tetris Agent ML\\Tetris Agent ML-499492.pt"
+                ]
+            },
+            {
+                "steps": 769016,
+                "file_path": "results\\ObeTetrominoBrain\\Tetris Agent ML\\Tetris Agent ML-769016.onnx",
+                "reward": 50.94736842105263,
+                "creation_time": 1716390420.1542847,
+                "auxillary_file_paths": [
+                    "results\\ObeTetrominoBrain\\Tetris Agent ML\\Tetris Agent ML-769016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 769016,
+            "file_path": "results\\ObeTetrominoBrain\\Tetris Agent ML.onnx",
+            "reward": 50.94736842105263,
+            "creation_time": 1716390420.1542847,
+            "auxillary_file_paths": [
+                "results\\ObeTetrominoBrain\\Tetris Agent ML\\Tetris Agent ML-769016.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

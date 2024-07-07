@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: a496cbf4b3c961147a5badf7ea44ab44
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gettyimages_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12df6650ee3bafd44904bdab16b64d5d
+      internalID: 1892175542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96cabcfb0e6d5b4c84c5491a5394321
+      internalID: -223222383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe911d56942a0a44cbe8fd708285f31a
+      internalID: -899294482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb999e023ebff4eb8ec7d02b5b4d41
+      internalID: -107414593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c37893c267aed49ad522b67183abb0
+      internalID: -803180597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f545fabcf6ac738498c1ac874ec4c413
+      internalID: -1121919835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516e6e7b5126d574eb7a3a4ed8efb0a7
+      internalID: -988148721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c863b3f52575c441a034d500d2e576a
+      internalID: -1771327622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a95df30f0e3624bbe22b42990a6ab6
+      internalID: -1354860414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 552
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7b85038f775684aa5720dc7fe3ef69
+      internalID: -260318770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01d6ead6ecccdb42b9b65b14bd3625a
+      internalID: 2047124020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8cb6adc7002d448ac5d1f3fdc4e2f4
+      internalID: -884246044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_12
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b24eaa948757e242905d3575150b228
+      internalID: 1527882613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd154a5012fd4d4da30503c9d7a78d9
+      internalID: 1366361499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_14
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ce4293c2daba40a5b09b3fad19361
+      internalID: 1467290881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175b2495d3df754091b675255434916
+      internalID: -662209003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_16
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1bd12b4f2153745a9a560d54c4f043
+      internalID: 1560004476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5993a35c310c75b4b93a9a1dfca8afcc
+      internalID: 1960500930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a648a64235c94ebd683c2c4e2a12c
+      internalID: 2047753343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 492
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be8837306db7a64ba1e412575683110
+      internalID: -2140639650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e13a517683f14e8e2f52916ae8134
+      internalID: 1941014525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_21
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32f2f5ba0cbcff449b977bdde5b72a1
+      internalID: 507714815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b816eadf0a3a42b1d16c83fb509b4
+      internalID: -1586951206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db00027e7f99443469c3de5b95a18edd
+      internalID: -1839461927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce7ae4715b64714ca0e392b09c49084
+      internalID: 846233517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d443f99d7469474a8aa9cb79b9f5394
+      internalID: 1889690707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d0b9502ae082489d7565bc69ad58c
+      internalID: 1769695745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_27
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be0eb749f29b9a498f1ee9f60cf54ba
+      internalID: -1308633185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7989936da4805894f888aca7a91bf9ad
+      internalID: -2113929248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_29
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 432
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2907b961237ffe41a84adc21871db78
+      internalID: 2048014142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc7afa67ba1ec47a2577204ab87823
+      internalID: 1251403466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248dcc8d7a46f646898858f509325a8
+      internalID: -2070029599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbd0cef54cc2e7408fb95f3051a9fa4
+      internalID: -485879649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa83623c7e671f40858fbeba7aab195
+      internalID: 349120771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0514ad76b28673d439ac6d3cf3219d06
+      internalID: -2137926205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_35
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c955edc5da26c4c49876e507ea4f2715
+      internalID: 74089690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_36
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b271f47b5310f4e895bc5ae521522b
+      internalID: 1059576705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_37
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb172995c8621e488bda28cc74f5df2
+      internalID: 850729806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8ce0ce7d1e104a9d2778745aa79ea
+      internalID: -1709634571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_39
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 372
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61edf55fc2cf16e4b8c763db92c6d6b3
+      internalID: 67380900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25aa76883219e24bbe69101a66c12bd
+      internalID: 1069286846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f39b96b529554884d810c5b809fa1
+      internalID: -260279783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5598636d8a8fc41ac2a07be769b8cd
+      internalID: 1906832797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_43
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31511a4abd469459161aa2ba026811
+      internalID: -1512646058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2be1b761b7711e48bd9360779503673
+      internalID: 1998595248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_45
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd75503282d5aaa47a49fbb5106503bf
+      internalID: -1679150211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_46
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bb722a5383dd147bca4126535aa5c0
+      internalID: -93549454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_47
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea9f555c49f184ca3dfeafabb6f8dc
+      internalID: 1449344656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_48
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13405fab15bba8746ab892384946b5a4
+      internalID: -1441858106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_49
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 312
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920d500c4fd0c64191454a68e0b1c20
+      internalID: -1856646119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2232cf07ffbba774d9b65a99ab4ea4b5
+      internalID: -338307754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4266777fd9d1a3e4281152e5fd1ea05a
+      internalID: 553267732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_52
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099f54380ed4a4b498897564c8944f0a
+      internalID: -964805335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_53
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba07fbd313ca3f4585e4b813d24e947
+      internalID: 1090844817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_54
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e726a735236c4bbc3b0fb591f552a
+      internalID: 2129149560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_55
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5e59f5486c13249bd76340fd57b088
+      internalID: 1196138550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d282dcf6592fb4383957e5f2f69606
+      internalID: -573415707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_57
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2bb011eaa047419eb1920106badd4
+      internalID: 1524179347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_58
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfabf61260cba445bf235cef42556fa
+      internalID: 1965089154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_59
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 252
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153abd90a9bae7c4aa0a6c023d8caeb3
+      internalID: 2061242606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122af634d56d434b87675af356f6bbd
+      internalID: -1313365734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcf3c3e9922f68489294154a827829f
+      internalID: -2504070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd75a0d36ac5c94692b4ace7cd61810
+      internalID: 1103462902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_63
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd5030762f682c42a7fb82a4b7f3c0a
+      internalID: 1230221656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_64
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580d869b20fbe14488a8b41ef3607ddf
+      internalID: -311495652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_65
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6bf56a4917cc147add990dbb0e78ca
+      internalID: 19481283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_66
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19abd073165529846ae9fc6109df8ff7
+      internalID: 1980357810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_67
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919b079e13043b469245efe0a6bfc07
+      internalID: 824157469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_68
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726fdf2b2512eb0408d66d81a1e4585e
+      internalID: 1510717835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_69
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 192
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0c6835976d203409d4ff20d19f2648
+      internalID: 329628360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a93d99024553b4887d153697aa5f5c
+      internalID: 499130637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_71
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ac224fc1b5c2419da8e156f85fd43
+      internalID: -767635988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_72
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb917631ef5191648acd66f67252c644
+      internalID: 760170566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_73
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff54602546ec204b8e4ae1c4093f05e
+      internalID: 1020148622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_74
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c972ade0dd5c81e46985013c762c3a14
+      internalID: 2062008200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_75
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f57d7f4d08dd984f957bed5c20d147f
+      internalID: -1985536274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_76
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ebec797e987248aa4739321958c1c
+      internalID: -1798125803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_77
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789338eed61e2c646a7c43986bd44b19
+      internalID: -1039759474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_78
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5b89d539487224d949eca9ab997a1f
+      internalID: -602725062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_79
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 132
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5a0bf0ad15e944395af4d9e51efac7
+      internalID: -721931694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ec564c60c1844489360b0528794ff8
+      internalID: 1460135512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_81
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aaf1c76c11fc64986cf81c7438765d
+      internalID: 217668615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_82
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f581e3a1b4dffb940bd181fa1913b80b
+      internalID: -1637447303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_83
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02241f4d58431c44d9a5e242cc665daf
+      internalID: 1017389568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_84
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109dc3fb7e65b06459c13e4f7ab24478
+      internalID: -1637045076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_85
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c15d5bff6ec66a43abc22dc1a8fa4b1
+      internalID: 1419983418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_86
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bcdda6e3ac6d3418e908b0407433ff
+      internalID: -2054930454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_87
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a791a3887a869234eab2965ae2426cb5
+      internalID: -1246788067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_88
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4bb614b7a387245b8eb03a262cbc15
+      internalID: -404411299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_89
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 72
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57da0655da46ce84fa85e995f08c0c01
+      internalID: -23366104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148c0a8d82d85f4488d9f575227002ab
+      internalID: 560465975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_91
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36354720d9253a14689701cbf72fe309
+      internalID: 1406612923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_92
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ba10663209794aa6c991347bc8663
+      internalID: 1797650082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad24555535164524f91664d46edf8de5
+      internalID: 1405634252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_94
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3403068b83fa4094e29bf69e1f2f9
+      internalID: -107255353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_95
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5886a2007cddc924a87e3575f5f21010
+      internalID: 371007787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_96
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc12eb11cc68de49b0cec4366e5df9e
+      internalID: -2135378588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_97
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88516435d1d2b8f49b8a6daef734a26b
+      internalID: 86161367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_98
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc52a33f19d6464393522f9e8af59f5
+      internalID: 607065971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gettyimages_99
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 12
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a251ef08cf733cb4dbb5c13afcf7c785
+      internalID: 1982284016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gettyimages_0: 1892175542
+      gettyimages_1: -223222383
+      gettyimages_10: 2047124020
+      gettyimages_11: -884246044
+      gettyimages_12: 1527882613
+      gettyimages_13: 1366361499
+      gettyimages_14: 1467290881
+      gettyimages_15: -662209003
+      gettyimages_16: 1560004476
+      gettyimages_17: 1960500930
+      gettyimages_18: 2047753343
+      gettyimages_19: -2140639650
+      gettyimages_2: -899294482
+      gettyimages_20: 1941014525
+      gettyimages_21: 507714815
+      gettyimages_22: -1586951206
+      gettyimages_23: -1839461927
+      gettyimages_24: 846233517
+      gettyimages_25: 1889690707
+      gettyimages_26: 1769695745
+      gettyimages_27: -1308633185
+      gettyimages_28: -2113929248
+      gettyimages_29: 2048014142
+      gettyimages_3: -107414593
+      gettyimages_30: 1251403466
+      gettyimages_31: -2070029599
+      gettyimages_32: -485879649
+      gettyimages_33: 349120771
+      gettyimages_34: -2137926205
+      gettyimages_35: 74089690
+      gettyimages_36: 1059576705
+      gettyimages_37: 850729806
+      gettyimages_38: -1709634571
+      gettyimages_39: 67380900
+      gettyimages_4: -803180597
+      gettyimages_40: 1069286846
+      gettyimages_41: -260279783
+      gettyimages_42: 1906832797
+      gettyimages_43: -1512646058
+      gettyimages_44: 1998595248
+      gettyimages_45: -1679150211
+      gettyimages_46: -93549454
+      gettyimages_47: 1449344656
+      gettyimages_48: -1441858106
+      gettyimages_49: -1856646119
+      gettyimages_5: -1121919835
+      gettyimages_50: -338307754
+      gettyimages_51: 553267732
+      gettyimages_52: -964805335
+      gettyimages_53: 1090844817
+      gettyimages_54: 2129149560
+      gettyimages_55: 1196138550
+      gettyimages_56: -573415707
+      gettyimages_57: 1524179347
+      gettyimages_58: 1965089154
+      gettyimages_59: 2061242606
+      gettyimages_6: -988148721
+      gettyimages_60: -1313365734
+      gettyimages_61: -2504070
+      gettyimages_62: 1103462902
+      gettyimages_63: 1230221656
+      gettyimages_64: -311495652
+      gettyimages_65: 19481283
+      gettyimages_66: 1980357810
+      gettyimages_67: 824157469
+      gettyimages_68: 1510717835
+      gettyimages_69: 329628360
+      gettyimages_7: -1771327622
+      gettyimages_70: 499130637
+      gettyimages_71: -767635988
+      gettyimages_72: 760170566
+      gettyimages_73: 1020148622
+      gettyimages_74: 2062008200
+      gettyimages_75: -1985536274
+      gettyimages_76: -1798125803
+      gettyimages_77: -1039759474
+      gettyimages_78: -602725062
+      gettyimages_79: -721931694
+      gettyimages_8: -1354860414
+      gettyimages_80: 1460135512
+      gettyimages_81: 217668615
+      gettyimages_82: -1637447303
+      gettyimages_83: 1017389568
+      gettyimages_84: -1637045076
+      gettyimages_85: 1419983418
+      gettyimages_86: -2054930454
+      gettyimages_87: -1246788067
+      gettyimages_88: -404411299
+      gettyimages_89: -23366104
+      gettyimages_9: -260318770
+      gettyimages_90: 560465975
+      gettyimages_91: 1406612923
+      gettyimages_92: 1797650082
+      gettyimages_93: 1405634252
+      gettyimages_94: -107255353
+      gettyimages_95: 371007787
+      gettyimages_96: -2135378588
+      gettyimages_97: 86161367
+      gettyimages_98: 607065971
+      gettyimages_99: 1982284016
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

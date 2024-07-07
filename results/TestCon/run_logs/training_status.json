@@ -1,0 +1,47 @@
+{
+    "Tetris Agent ML": {
+        "checkpoints": [
+            {
+                "steps": 499810,
+                "file_path": "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-499810.onnx",
+                "reward": null,
+                "creation_time": 1715025472.7213104,
+                "auxillary_file_paths": [
+                    "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-499810.pt"
+                ]
+            },
+            {
+                "steps": 716125,
+                "file_path": "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-716125.onnx",
+                "reward": -114.25,
+                "creation_time": 1715027024.2199402,
+                "auxillary_file_paths": [
+                    "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-716125.pt"
+                ]
+            },
+            {
+                "steps": 716694,
+                "file_path": "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-716694.onnx",
+                "reward": -339.0,
+                "creation_time": 1715091375.1824493,
+                "auxillary_file_paths": [
+                    "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-716694.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 716694,
+            "file_path": "results\\TestCon\\Tetris Agent ML.onnx",
+            "reward": -339.0,
+            "creation_time": 1715091375.1824493,
+            "auxillary_file_paths": [
+                "results\\TestCon\\Tetris Agent ML\\Tetris Agent ML-716694.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

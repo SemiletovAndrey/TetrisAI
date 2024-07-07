@@ -1,0 +1,65 @@
+{
+    "Tetris Agent ML": {
+        "checkpoints": [
+            {
+                "steps": 3499663,
+                "file_path": "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-3499663.onnx",
+                "reward": -82.10526315789474,
+                "creation_time": 1715206430.4639027,
+                "auxillary_file_paths": [
+                    "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-3499663.pt"
+                ]
+            },
+            {
+                "steps": 3999490,
+                "file_path": "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-3999490.onnx",
+                "reward": 175.0,
+                "creation_time": 1715214287.5759592,
+                "auxillary_file_paths": [
+                    "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-3999490.pt"
+                ]
+            },
+            {
+                "steps": 4499719,
+                "file_path": "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-4499719.onnx",
+                "reward": 501.0,
+                "creation_time": 1715222226.9758203,
+                "auxillary_file_paths": [
+                    "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-4499719.pt"
+                ]
+            },
+            {
+                "steps": 4999100,
+                "file_path": "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-4999100.onnx",
+                "reward": 1497.5,
+                "creation_time": 1715230157.4380915,
+                "auxillary_file_paths": [
+                    "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-4999100.pt"
+                ]
+            },
+            {
+                "steps": 5000100,
+                "file_path": "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-5000100.onnx",
+                "reward": 1497.5,
+                "creation_time": 1715230157.8476999,
+                "auxillary_file_paths": [
+                    "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-5000100.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000100,
+            "file_path": "results\\Brain1\\Tetris Agent ML.onnx",
+            "reward": 1497.5,
+            "creation_time": 1715230157.8476999,
+            "auxillary_file_paths": [
+                "results\\Brain1\\Tetris Agent ML\\Tetris Agent ML-5000100.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}
