@@ -4,25 +4,21 @@ using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 using Zenject;
 
-public class Board : MonoBehaviour
+public abstract class Board : MonoBehaviour
 {
-    public Tilemap Tilemap { get; private set; }
-    public Piece ActivePiece { get { return activePiece; } private set { activePiece = value; } }
-
     public TetrominoData[] tetrominos;
     public Vector3Int spawnPosition;
     public Vector2Int boardSize = new Vector2Int(10, 20);
-    [SerializeField] private ParticleSystem _destroyParticlePrefab;
-    [SerializeField] private Piece activePiece;
-
-
-    private bool canAI;
+    [SerializeField] protected ParticleSystem _destroyParticlePrefab;
+    [SerializeField] protected Piece activePiece;
 
     public State currentState;
 
-    public TetrisAgentML tetrisAgentML;
 
-    public RectInt Bounds
+    protected virtual Tilemap Tilemap { get; set; }
+    protected virtual Piece ActivePiece { get { return activePiece; } set { activePiece = value; } }
+
+    public virtual RectInt Bounds
     {
         get
         {
@@ -31,61 +27,9 @@ public class Board : MonoBehaviour
         }
     }
 
-    private GameDifficultyManager gameDifficultyManager;
-
-    //[Inject]
-    //public void Construct(Tilemap tilemap, Piece piece)
-    //{
-    //    Tilemap = tilemap;
-    //    ActivePiece = piece;
-    //    for (int i = 0; i < tetrominos.Length; i++)
-    //    {
-    //        tetrominos[i].Initialize();
-    //    }
-    //}
-    [Inject]
-    public void Construct(Tilemap tilemap, Piece piece, GameDifficultyManager gameDifficultyManager)
-    {
-        Tilemap = tilemap;
-        ActivePiece = piece;
-        this.gameDifficultyManager = gameDifficultyManager;
-        for (int i = 0; i < tetrominos.Length; i++)
-        {
-            tetrominos[i].Initialize();
-        }
-    }
-
-    private void Start()
-    {
-        canAI = ActivePiece.CanAI;
-        currentState = new State(boardSize.x, boardSize.y, 2, 2);
-        if (canAI == false)
-        {
-            SpawnPiece();
-        }
-    }
-
-    public void SpawnPiece()
-    {
-        int random = Random.Range(0, tetrominos.Length);
-        TetrominoData data = tetrominos[random];
-        ActivePiece.Initialize(this,spawnPosition, data);
-
-        if (canAI)
-        {
-            currentState.UpdateState(ActivePiece.positionForQTable, data);
-        }
-
-        if (IsValidPosition(ActivePiece, spawnPosition))
-        {
-            SetPiece(ActivePiece);
-        }
-        else
-        {
-            GameOver();
-        }
-    }
-    public void SetPiece(Piece piece)
+    public abstract void SpawnPiece();
+    
+    public virtual void SetPiece(Piece piece)
     {
         for (int i = 0; i < piece.Cells.Length; i++)
         {
@@ -95,7 +39,7 @@ public class Board : MonoBehaviour
     }
 
 
-    public void ClearPiece(Piece piece)
+    public virtual void ClearPiece(Piece piece)
     {
         for (int i = 0; i < piece.Cells.Length; i++)
         {
@@ -104,7 +48,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    public bool IsValidPosition(Piece piece, Vector3Int position)
+    public virtual bool IsValidPosition(Piece piece, Vector3Int position)
     {
         RectInt bounds = Bounds;
         for (int i = 0; i < piece.Cells.Length; i++)
@@ -122,63 +66,12 @@ public class Board : MonoBehaviour
         return true;
     }
 
-    public void ClearAllLine()
-    {
-        RectInt bound = Bounds;
-        int row = bound.yMin;
-        int countLine = 0;
-        bool isLine = false;
-        while (row < bound.yMax)
-        {
-            if (IsLineHasFull(row))
-            {
-                LineClear(row);
-                if (canAI)
-                {
-                    currentState.ClearAllLineInGrid();
-                    currentState.UpdateAllLineInGrid(bound, Tilemap);
-                    isLine = true;
-                    countLine++;
-                }
-            }
-            else
-            {
-                row++;
-            }
-        }
-        if (isLine)
-        {
-            if (canAI)
-            {
-                tetrisAgentML.CalculateReward(countLine * 25);
-
-            }
-        }
+    public abstract void ClearAllLine();
 
 
-    }
-
-    private void LineClear(int row)
-    {
-        RectInt bound = Bounds;
-        for (int i = bound.xMin; i < bound.xMax; i++)
-        {
-            Vector3Int position = new Vector3Int(i, row, 0);
-            Tilemap.SetTile(position, null);
-            AnimateLineClear(position);
-        }
-
-        ToplineInteraction(row, bound);
-
-        EventManager.OnScoring();
-        if (canAI == false)
-        {
-            gameDifficultyManager?.IncreaseDifficulty();
-        }
-
-    }
-
-    private void ToplineInteraction(int row, RectInt bound)
+    protected abstract void LineClear(int row);
+    
+    protected virtual void ToplineInteraction(int row, RectInt bound)
     {
 
         while (row < bound.yMax)
@@ -189,15 +82,12 @@ public class Board : MonoBehaviour
                 TileBase upTile = Tilemap.GetTile(position);
                 position = new Vector3Int(i, row, 0);
                 Tilemap.SetTile(position, upTile);
-
             }
             row++;
         }
     }
 
-
-
-    private bool IsLineHasFull(int row)
+    protected bool IsLineHasFull(int row)
     {
         RectInt bound = Bounds;
         for (int i = bound.xMin; i < bound.xMax; i++)
@@ -210,24 +100,10 @@ public class Board : MonoBehaviour
         }
         return true;
     }
-    public void GameOver()
-    {
-        Tilemap.ClearAllTiles();
 
-        if (canAI)
-        {
-            currentState.ClearAllLineInGrid();
-            tetrisAgentML.CalculateReward(-50f);
-            tetrisAgentML.EndEpisodeTetris();
-            EventManager.OnClearScore();
-        }
-        if (canAI == false)
-        {
-            EventManager.OnGameOver();
-        }
-    }
-
-    private void AnimateLineClear(Vector3 linePosition)
+    public abstract void GameOver();
+    
+    protected virtual void AnimateLineClear(Vector3 linePosition)
     {
         Vector3 position = linePosition + new Vector3(0, 0, -8);
         ParticleSystem lineDestroyEffect = Instantiate(_destroyParticlePrefab, position, Quaternion.identity);
@@ -235,63 +111,5 @@ public class Board : MonoBehaviour
         Destroy(lineDestroyEffect.gameObject, 2.0f);
     }
 
-    public void UpdateGame()
-    {
-        if (currentState.position[0].y < (boardSize.y - 2))
-        {
-            int fine = (currentState.position[0].y - (boardSize.y - 2)) / 3;
-            tetrisAgentML.CalculateReward(fine);
-        }
-        else
-        {
-            tetrisAgentML.CalculateReward(10f);
-        }
-        CalculateHoles();
-    }
-
-    public void CalculateHoles()
-    {
-        int xPlus1 = currentState.position[3].x + 1;
-        int xPlus2 = currentState.position[3].x + 2;
-        int xMinus1 = currentState.position[0].x - 1;
-        int xMinus2 = currentState.position[0].x - 2;
-
-        if (xPlus1 < boardSize.x && currentState.grid[xPlus1, currentState.position[0].y] == 0)
-        {
-            if (xPlus2 < boardSize.x)
-            {
-                if (currentState.position[0].x % 2 != 0)
-                {
-
-                    tetrisAgentML.CalculateReward(-30f);
-                    return;
-
-                }
-            }
-            else
-            {
-
-                tetrisAgentML.CalculateReward(-30f);
-                return;
-            }
-        }
-
-        if (xMinus1 >= 0 && currentState.grid[xMinus1, currentState.position[0].y] == 0)
-        {
-            if (xMinus2 >= 0)
-            {
-                if (currentState.position[0].x % 2 != 0)
-                {
-                    tetrisAgentML.CalculateReward(-30f);
-                    return;
-                }
-            }
-            else
-            {
-
-                tetrisAgentML.CalculateReward(-30f);
-                return;
-            }
-        }
-    }
+    public virtual void UpdateGame() { }
 }

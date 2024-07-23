@@ -10,16 +10,15 @@ public class State
     public Vector2Int[] position;
     public int rotation;
     public TetrominoData currentTetromino;
-    public SectionsMatrix sectionsMatrix;
+    
 
     private int width;
     private int height;
-    public State(int width, int height, int sectionWidth, int sectionHeight)
+    public State(int width, int height)
     {
         this.width = width;
         this.height = height;
         grid = new int[width, height];
-        sectionsMatrix = new SectionsMatrix(sectionWidth, sectionHeight, width, height);
     }
 
     public void UpdateState(Vector2Int[] newPosition, TetrominoData newTetromino)
@@ -79,11 +78,5 @@ public class State
                 }
             }
         }
-    }
-
-
-    public void UpdateSections()
-    {
-        sectionsMatrix.Encode(grid);
     }
 }

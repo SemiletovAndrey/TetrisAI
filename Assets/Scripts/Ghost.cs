@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Zenject;
 
 public class Ghost : MonoBehaviour
 {
@@ -9,6 +10,14 @@ public class Ghost : MonoBehaviour
     public Tilemap TilemapPiece { get;private set; }
     public Vector3Int[] Cells { get; private set; }
     public Vector3Int Position { get; private set; }
+
+    [Inject]
+
+    public void Construct(Piece piece, Board board)
+    {
+        _trakingPiece = piece;
+        _board = board;
+    }
 
     private void Awake()
     {

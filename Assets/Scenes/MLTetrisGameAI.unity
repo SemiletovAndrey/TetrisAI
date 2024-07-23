@@ -227,8 +227,8 @@ GameObject:
   m_Component:
   - component: {fileID: 108647615}
   - component: {fileID: 108647614}
-  - component: {fileID: 108647616}
   - component: {fileID: 108647617}
+  - component: {fileID: 108647618}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -264,28 +264,6 @@ Transform:
   - {fileID: 124269260}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &108647616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108647613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec49937b4eacfc7439778a6da3df682a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tetrominos:
-  - tetromino: 0
-    tile: {fileID: 11400000, guid: 4d54fc61e6090ec41b36b843ec5e570c, type: 2}
-  - tetromino: 1
-    tile: {fileID: 11400000, guid: cc02e4e127710734c9d3ac7972019dbf, type: 2}
-  spawnPosition: {x: 0, y: 8, z: 0}
-  boardSize: {x: 10, y: 20}
-  _destroyParticlePrefab: {fileID: 219490683924041330, guid: d4bf4e062da0ff245b356962108de20a, type: 3}
-  activePiece: {fileID: 0}
-  tetrisAgentML: {fileID: 45897109}
 --- !u!114 &108647617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,9 +279,31 @@ MonoBehaviour:
   _pitchDelay: 0.15
   _lockDelay: 0.00005
   canAI: 1
+  Board: {fileID: 0}
   positionForQTable: []
   actionTimer: 0
   actionCooldown: 0.15
+--- !u!114 &108647618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108647613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b48303aaf39e7b44ad273f96ceb6340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrominos:
+  - tetromino: 0
+    tile: {fileID: 11400000, guid: 4d54fc61e6090ec41b36b843ec5e570c, type: 2}
+  - tetromino: 1
+    tile: {fileID: 11400000, guid: cc02e4e127710734c9d3ac7972019dbf, type: 2}
+  spawnPosition: {x: 0, y: 8, z: 0}
+  boardSize: {x: 10, y: 20}
+  _destroyParticlePrefab: {fileID: 219490683924041330, guid: d4bf4e062da0ff245b356962108de20a, type: 3}
+  activePiece: {fileID: 0}
 --- !u!1 &124269259
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +551,6 @@ MonoBehaviour:
   _scriptableObjectInstallers: []
   _monoInstallers:
   - {fileID: 361451047}
-  - {fileID: 1324780828}
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:
@@ -583,7 +582,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 361451046}
-  - {fileID: 1324780829}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361451044
@@ -1385,58 +1383,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1324780827
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1324780829}
-  - component: {fileID: 1324780828}
-  m_Layer: 0
-  m_Name: DufficultyManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1324780828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324780827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e9b500ece46fc241b1dd60f5899b6e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameDifficultyManager:
-    _currentScoreForDificult: 0
-    _difficultyData:
-      _speedIncreaseFrequency: 20
-      _difficultyMultiplier: 0.8
-  difficultyData:
-    _speedIncreaseFrequency: 0
-    _difficultyMultiplier: 0
---- !u!4 &1324780829
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324780827}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 235060863}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1406254790
 GameObject:
   m_ObjectHideFlags: 0

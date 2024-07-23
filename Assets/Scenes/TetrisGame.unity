@@ -283,8 +283,8 @@ GameObject:
   m_Component:
   - component: {fileID: 108647615}
   - component: {fileID: 108647614}
-  - component: {fileID: 108647616}
   - component: {fileID: 108647617}
+  - component: {fileID: 108647618}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -320,38 +320,6 @@ Transform:
   - {fileID: 124269260}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &108647616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108647613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec49937b4eacfc7439778a6da3df682a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tetrominos:
-  - tetromino: 0
-    tile: {fileID: 11400000, guid: 096537c2d7069e54dab9ce6f590eb073, type: 2}
-  - tetromino: 1
-    tile: {fileID: 11400000, guid: 503b8dd97fdf5c2409a75c14227175ff, type: 2}
-  - tetromino: 2
-    tile: {fileID: 11400000, guid: f9184cb6a4af2e040b8ada50bcc8db2b, type: 2}
-  - tetromino: 3
-    tile: {fileID: 11400000, guid: 4d54fc61e6090ec41b36b843ec5e570c, type: 2}
-  - tetromino: 4
-    tile: {fileID: 11400000, guid: 54a4b48344b0e184f83a573a04e7c569, type: 2}
-  - tetromino: 5
-    tile: {fileID: 11400000, guid: cc02e4e127710734c9d3ac7972019dbf, type: 2}
-  - tetromino: 6
-    tile: {fileID: 11400000, guid: 7d7e1ae959d6e6b45bb6d55fa5cfb6ec, type: 2}
-  spawnPosition: {x: -1, y: 8, z: 0}
-  boardSize: {x: 10, y: 20}
-  _destroyParticlePrefab: {fileID: 219490683924041330, guid: d4bf4e062da0ff245b356962108de20a, type: 3}
-  activePiece: {fileID: 0}
-  tetrisAgentML: {fileID: 0}
 --- !u!114 &108647617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,9 +335,41 @@ MonoBehaviour:
   _pitchDelay: 1
   _lockDelay: 0.2
   canAI: 0
+  Board: {fileID: 0}
   positionForQTable: []
   actionTimer: 0
   actionCooldown: 0.5
+--- !u!114 &108647618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108647613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e34d7a8d4874f541910c10ab3b9c310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrominos:
+  - tetromino: 0
+    tile: {fileID: 11400000, guid: 4d54fc61e6090ec41b36b843ec5e570c, type: 2}
+  - tetromino: 1
+    tile: {fileID: 11400000, guid: 096537c2d7069e54dab9ce6f590eb073, type: 2}
+  - tetromino: 2
+    tile: {fileID: 11400000, guid: cc02e4e127710734c9d3ac7972019dbf, type: 2}
+  - tetromino: 3
+    tile: {fileID: 11400000, guid: 54a4b48344b0e184f83a573a04e7c569, type: 2}
+  - tetromino: 4
+    tile: {fileID: 11400000, guid: f9184cb6a4af2e040b8ada50bcc8db2b, type: 2}
+  - tetromino: 5
+    tile: {fileID: 11400000, guid: 7d7e1ae959d6e6b45bb6d55fa5cfb6ec, type: 2}
+  - tetromino: 6
+    tile: {fileID: 11400000, guid: 503b8dd97fdf5c2409a75c14227175ff, type: 2}
+  spawnPosition: {x: 0, y: 8, z: 0}
+  boardSize: {x: 10, y: 20}
+  _destroyParticlePrefab: {fileID: 219490683924041330, guid: d4bf4e062da0ff245b356962108de20a, type: 3}
+  activePiece: {fileID: 0}
 --- !u!1 &121790131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,9 +2828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695e429386944b54eb9b4f0b667b94c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _trakingPiece: {fileID: 108647617}
+  _trakingPiece: {fileID: 0}
   _tile: {fileID: 11400000, guid: 2117f3a3b02964441bfdb0879a09e206, type: 2}
-  _board: {fileID: 108647616}
+  _board: {fileID: 0}
 --- !u!1 &1348520501
 GameObject:
   m_ObjectHideFlags: 0

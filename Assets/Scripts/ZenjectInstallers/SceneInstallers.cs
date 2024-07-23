@@ -27,5 +27,18 @@ public class SceneInstallers : MonoInstaller
             .Bind<Tilemap>()
             .FromComponentInHierarchy()
             .AsSingle();
+
+        Container
+            .Bind<TetrisAgentML>()
+            .FromComponentInHierarchy()
+            .AsSingle();
+    }
+
+    private void BindBoard()
+    {
+        Container
+            .Bind<Board>()
+            .FromComponentInHierarchy()
+            .AsSingle();
     }
 }

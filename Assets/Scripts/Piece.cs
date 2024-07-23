@@ -9,10 +9,9 @@ public class Piece : MonoBehaviour
     [SerializeField] private float _lockDelay = 0.2f;
     [SerializeField] private bool canAI = false;
 
-    private Vector2Int agentAction;
-    private bool actionReady = false;
 
-    public Board Board { get; private set; }
+
+    [Inject] public Board Board;//{ get; private set; }
 
     public TetrominoData DataTerm { get; private set; }
     public Vector3Int Position { get; private set; }
@@ -25,13 +24,14 @@ public class Piece : MonoBehaviour
 
     private double _stepTime;
     private float _lockTime;
+    private Vector2Int agentActionVector;
+    private bool actionReady = false;
 
     public float actionTimer = 0.0f;
     public float actionCooldown = 0.5f;
 
-    public void Initialize(Board board, Vector3Int position, TetrominoData data)
+    public void Initialize(Vector3Int position, TetrominoData data)
     {
-        this.Board = board;
         this.DataTerm = data;
         this.Position = position;
         this.RotateIndex = 0;
@@ -59,7 +59,7 @@ public class Piece : MonoBehaviour
             actionTimer -= Time.deltaTime;
             if (actionReady)
             {
-                PerformAction(agentAction);
+                PerformAction(agentActionVector);
                 actionReady = false;
             }
         }
@@ -82,7 +82,7 @@ public class Piece : MonoBehaviour
 
     public void SetAgentAction(Vector2Int action)
     {
-        agentAction = action;
+        agentActionVector = action;
         actionReady = true;
     }
 
