@@ -5,10 +5,6 @@ public class UIController : MonoBehaviour
     [SerializeField] private SettingMenu _settingMenu;
     private void Start()
     {
-        if(_settingMenu == null)
-        {
-            Debug.Log("null");
-        }
         _settingMenu.Close();
         EventManager.GameOverEvent += _settingMenu.OnGameOverHandler;
     }

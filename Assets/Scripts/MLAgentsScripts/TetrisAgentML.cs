@@ -4,11 +4,19 @@ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
+using Zenject;
 
 public class TetrisAgentML : Agent
 {
-    public Board gameBoard; 
-    public Piece piece;
+    private Board gameBoard; 
+    private Piece piece;
+
+    [Inject]
+    public void Construct(Board board, Piece piece)
+    {
+        gameBoard = board;
+        this.piece = piece;
+    }
 
     public override void OnEpisodeBegin()
     {

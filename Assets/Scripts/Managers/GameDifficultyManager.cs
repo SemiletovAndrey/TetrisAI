@@ -1,19 +1,22 @@
+using System;
 using UnityEngine;
+using Zenject;
 
-public class GameDifficultyManager : MonoBehaviour
+[Serializable]
+public class GameDifficultyManager
 {
     private ScoreView _scoreView;
     private Piece _piece;
-    private int _currentScoreForDificult = 0;
+    [SerializeField] private int _currentScoreForDificult = 0;
+    [SerializeField] private DifficultyData _difficultyData;
 
-    [SerializeField] private int _speedIncreaseFrequency = 20;
-    [SerializeField] private float _difficultyMultiplier = 0.8f;
-
-    private void Start()
+    public GameDifficultyManager(ScoreView scoreView, Piece piece, DifficultyData difficultyData)
     {
-        _scoreView = FindObjectOfType<ScoreView>();
-        _piece = FindObjectOfType<Piece>();
-        _currentScoreForDificult = _scoreView.Score + _speedIncreaseFrequency;
+        _scoreView = scoreView;
+        _piece = piece;
+        _difficultyData = difficultyData;
+        _currentScoreForDificult = _scoreView.Score + _difficultyData.SpeedIncreaseFrequency;
+
     }
 
     
@@ -21,8 +24,9 @@ public class GameDifficultyManager : MonoBehaviour
     {
         if (_scoreView.Score >= _currentScoreForDificult)
         {
-            _piece.PitchDelay *= _difficultyMultiplier;
-            _currentScoreForDificult = _scoreView.Score + _speedIncreaseFrequency;
+            _piece.PitchDelay *= _difficultyData.DifficultyMultiplier;
+            _currentScoreForDificult = _scoreView.Score + _difficultyData.SpeedIncreaseFrequency;
+            Debug.Log("Increase");
         }
     }
 }

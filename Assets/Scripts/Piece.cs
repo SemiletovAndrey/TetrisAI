@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Zenject;
 
 public class Piece : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Piece : MonoBehaviour
     private bool actionReady = false;
 
     public Board Board { get; private set; }
+
     public TetrominoData DataTerm { get; private set; }
     public Vector3Int Position { get; private set; }
     public Vector3Int[] Cells { get; private set; }
@@ -24,13 +26,11 @@ public class Piece : MonoBehaviour
     private double _stepTime;
     private float _lockTime;
 
-
     public float actionTimer = 0.0f;
     public float actionCooldown = 0.5f;
 
     public void Initialize(Board board, Vector3Int position, TetrominoData data)
     {
-
         this.Board = board;
         this.DataTerm = data;
         this.Position = position;

@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
+using Zenject;
 
 public class Board : MonoBehaviour
 {
@@ -30,10 +31,24 @@ public class Board : MonoBehaviour
         }
     }
 
-    private void Awake()
+    private GameDifficultyManager gameDifficultyManager;
+
+    //[Inject]
+    //public void Construct(Tilemap tilemap, Piece piece)
+    //{
+    //    Tilemap = tilemap;
+    //    ActivePiece = piece;
+    //    for (int i = 0; i < tetrominos.Length; i++)
+    //    {
+    //        tetrominos[i].Initialize();
+    //    }
+    //}
+    [Inject]
+    public void Construct(Tilemap tilemap, Piece piece, GameDifficultyManager gameDifficultyManager)
     {
-        Tilemap = GetComponentInChildren<Tilemap>();
-        ActivePiece = GetComponentInChildren<Piece>();
+        Tilemap = tilemap;
+        ActivePiece = piece;
+        this.gameDifficultyManager = gameDifficultyManager;
         for (int i = 0; i < tetrominos.Length; i++)
         {
             tetrominos[i].Initialize();
@@ -54,7 +69,7 @@ public class Board : MonoBehaviour
     {
         int random = Random.Range(0, tetrominos.Length);
         TetrominoData data = tetrominos[random];
-        ActivePiece.Initialize(this, spawnPosition, data);
+        ActivePiece.Initialize(this,spawnPosition, data);
 
         if (canAI)
         {
@@ -152,13 +167,13 @@ public class Board : MonoBehaviour
             Tilemap.SetTile(position, null);
             AnimateLineClear(position);
         }
-        
+
         ToplineInteraction(row, bound);
 
         EventManager.OnScoring();
         if (canAI == false)
         {
-            Managers.GameDifficultyManager?.IncreaseDifficulty();
+            gameDifficultyManager?.IncreaseDifficulty();
         }
 
     }
@@ -278,18 +293,5 @@ public class Board : MonoBehaviour
                 return;
             }
         }
-    }
-
-    [ContextMenu("PrintArrayGrid")]
-    public void PrintArrayGrid()
-    {
-        for (int i = 0; i < currentState.grid.GetLength(0); i++)
-        {
-            for (int j = 0; j < currentState.grid.GetLength(1); j++)
-            {
-                Debug.Log($"myArray[{i},{j}] = {currentState.grid[i, j]}");
-            }
-        }
-        Debug.Log($"Tetromino index {(int)currentState.currentTetromino.tetromino}");
     }
 }
