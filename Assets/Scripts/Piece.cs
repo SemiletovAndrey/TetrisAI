@@ -11,7 +11,7 @@ public class Piece : MonoBehaviour
 
 
 
-    [Inject] public Board Board;//{ get; private set; }
+    [Inject] public Board Board { get; private set; }
 
     public TetrominoData DataTerm { get; private set; }
     public Vector3Int Position { get; private set; }

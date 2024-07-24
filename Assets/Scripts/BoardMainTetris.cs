@@ -19,6 +19,7 @@ public class BoardMainTetris : Board
         {
             tetrominos[i].Initialize();
         }
+        Debug.Log("Construct Main");
     }
 
     private void Start()
